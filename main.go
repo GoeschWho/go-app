@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"net/http"
 
 	"google.golang.org/appengine" // Required external App Engine library
@@ -20,6 +19,4 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		http.Redirect(w, r, "/", http.StatusFound)
 		return
 	}
-
-	fmt.Fprintln(w, "Hello, Goesch Dev!")
 }
