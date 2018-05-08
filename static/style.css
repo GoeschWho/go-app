@@ -1,4 +1,23 @@
+@font-face{
+    font-family: "Roboto";
+    src: url(https://fonts.googleapis.com/css?family=Roboto:400,900i);
+}
+
 body {
-    font-family: Arial, sans-serif;
-    color: blue;
+    font-family: 'Roboto', sans-serif;
+    /*color: blue; */
   }
+
+h1 {
+    font-weight:900;
+    font-style: italic;
+    font-size: 3em;
+    color: lightcoral;
+    /* color: palevioletred;*/
+}
+
+a {
+    color: cadetblue;
+    color: powderblue;
+    color: slategray;
+}
